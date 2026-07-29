@@ -1,0 +1,8 @@
+sort1: Selection Sort
+Explanation: My tests showed that sort1 is consistently slow, taking approximately 1.8 seconds for the 50000.txt file regardless of its order. This constant, high execution time confirms it uses the Selection Sort algorithm, which has a time complexity of O(n^2).
+
+sort2: Bubble Sort
+Explanation: I observed that sort2 performs very differently depending on the input; it takes about 0.05 seconds for sorted data but increases to over 1.2 seconds for reversed data. This sensitivity to the initial order is characteristic of the Bubble Sort algorithm.
+
+sort3: Merge Sort
+Explanation: sort3 is the most efficient, processing the 50000.txt file in about 0.03 seconds consistently, regardless of whether the file is sorted, random, or reversed. This high-speed performance is the hallmark of the Merge Sort algorithm, which has a complexity of O(n log n).
